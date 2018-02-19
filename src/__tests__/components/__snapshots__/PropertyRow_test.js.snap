@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyRow Component When it renders should render with a title and a message 1`] = `
+<div
+  className="well well-sm"
+>
+  <div
+    className="col-xs-3"
+  >
+    <label
+      className="control-label"
+      htmlFor={undefined}
+    >
+      sometitle
+    </label>
+  </div>
+  somemessage
+</div>
+`;

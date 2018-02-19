@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherQuality Component When has fetched should render the weather quality 1`] = `
+<div
+  className="panel panel-info"
+  id={undefined}
+>
+  <div
+    className="panel-heading"
+  >
+    <h1
+      className="panel-title"
+    >
+      Paris
+      <span
+        className="circle-style"
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        •
+      </span>
+    </h1>
+  </div>
+  <div
+    className="panel-body"
+  >
+    <div>
+      <div
+        className="well well-sm"
+      >
+        <div
+          className="col-xs-3"
+        >
+          <label
+            className="control-label"
+            htmlFor={undefined}
+          >
+            Air Quality Message
+          </label>
+        </div>
+        Poor Air Quality
+      </div>
+      <div
+        className="well well-sm"
+      >
+        <div
+          className="col-xs-3"
+        >
+          <label
+            className="control-label"
+            htmlFor={undefined}
+          >
+            Air Quality Index
+          </label>
+        </div>
+        19
+      </div>
+      <div
+        className="well well-sm"
+      >
+        <div
+          className="col-xs-3"
+        >
+          <label
+            className="control-label"
+            htmlFor={undefined}
+          >
+            Dominant Polutant
+          </label>
+        </div>
+        co2
+      </div>
+      <div
+        className="well well-sm"
+      >
+        <div
+          className="col-xs-3"
+        >
+          <label
+            className="control-label"
+            htmlFor={undefined}
+          >
+            Polutant Description
+          </label>
+        </div>
+        This is risky
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WeatherQuality Component When is fetching should render the spinner 1`] = `
+<div
+  className="panel panel-info"
+  id={undefined}
+>
+  <div
+    className="panel-heading"
+  >
+    <h1
+      className="panel-title"
+    >
+      Paris
+      <span
+        className="circle-style"
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        •
+      </span>
+    </h1>
+  </div>
+  <div
+    className="panel-body"
+  >
+    <img
+      alt="loading"
+      className="spinner"
+      src="spinner.svg"
+    />
+  </div>
+</div>
+`;
+
+exports[`WeatherQuality Component when there is an error should render the error message 1`] = `
+<div
+  className="panel panel-info"
+  id={undefined}
+>
+  <div
+    className="panel-heading"
+  >
+    <h1
+      className="panel-title"
+    >
+      Paris
+      <span
+        className="circle-style"
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        •
+      </span>
+    </h1>
+  </div>
+  <div
+    className="panel-body"
+  >
+    someerror
+  </div>
+</div>
+`;
